@@ -9,6 +9,13 @@ student = {
     "city": "Karachi",
     "hobbies": ["skeching", "Reading", "Gaming"],
     "skills": ["Python", "Ms office", "javascipt"]
+marks = {
+    "math": 85,
+    "english": 75,
+    "science": 90,
+    "computer": 95
+}
+
 }
 
 # Print student name
@@ -20,18 +27,8 @@ print("First Hobby:", student["hobbies"][0])
 # Print total skills
 print("Total Skills:", len(student["skills"]))
 
-###================================###
- # QUESTION 2 
-###=================================###
-
-marks = {
-    "math": 85,
-    "english": 75,
-    "science": 90,
-    "computer": 95
-}
-
 print("Subject Marks")
+
 
 for subject, mark in marks.items():
     print(subject, ":", mark)
@@ -41,6 +38,8 @@ average = total / len(marks)
 
 print("Total Marks:", total)
 print("Average Marks:", average)
+
+
 
 ###===================================###
   # QUESTION 3 
